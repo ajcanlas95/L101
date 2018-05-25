@@ -34,6 +34,8 @@ Click on Expert mode to fasten the process
 
 Fill it up by the following:
 
+|Field|Value|
+|---|---|
 |Name|Linux 101|
 |Type|Linux|
 |Version|Red Hat (64 bit)|
@@ -44,6 +46,8 @@ Fill it up by the following:
 
 Then Click Create to create the Virtual disk:
 
+|Field|Value|
+|---|---|
 | File location | Linux 101 |
 | File Size | 20 GB |
 | Hard disk file type | VDI (VirtualBox Disk Image) |
@@ -65,6 +69,8 @@ Click Network
 
 Now we need to configure your second Adapter by clicking Adapter and use the following settings:
 
+|Field|Value|
+|---|---|
 |Enable Network Adapter| Checked |
 |Attached to:|Host-only Adapter|
 |Name:|VirtualBox Host-Only Ethernet adapter|
