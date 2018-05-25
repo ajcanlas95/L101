@@ -30,11 +30,11 @@ This means it the server is installing this will take a while, after installatio
 
 ![alt text][pre16-Reboot]
 
-Before you press reboot remove first the ISO by clicking on Menu Tab > Devices > Optical Drives > Remove disk from virtual drives (Force Unmount if needed)
+Before you press reboot remove first the ISO by clicking on Virtual Box Menu Bar Devices > Optical Drives > Remove disk from virtual drives (Force Unmount if needed)
 
 Then Click Reboot
 
-(If The Vm takes time to reboot just click in Menu tab > Machine > Reset)
+(If The VM takes time to reboot just click on VirtualBox Menu Bar Machine > Reset)
 
 If you successfully followed all the steps you can Login with this credentials:
 

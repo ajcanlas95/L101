@@ -42,7 +42,6 @@ Fill it up by the following:
 |Memory Size|4096 MB|
 |Hard Disk|Create a virtual disk now|
 
-![alt text][pre04-FillUp]
 
 Then Click Create to create the Virtual disk:
 
@@ -53,7 +52,6 @@ Then Click Create to create the Virtual disk:
 | Hard disk file type | VDI (VirtualBox Disk Image) |
 | Storage on physical hard disk | Dynamically Allocated |
 
-![alt text][pre05-Storage]
 
 Then click Create and you have successfully created your VM now we just need some few changes in network settings
 
@@ -98,7 +96,6 @@ You have finally set-up your VM now we will install your server,Click [here](htt
 
 [pre03-ExpertMode]: https://github.com/ajohnsc/L101/blob/master/pictures/pre03-ExpertMode.PNG
 
-[pre04-FillUp]: https://github.com/ajohnsc/L101/blob/master/pictures/pre04-FillUp.PNG
 
 [pre05-Storage]: https://github.com/ajohnsc/L101/blob/master/pictures/pre05-Storage.PNG
 
