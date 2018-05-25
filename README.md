@@ -67,7 +67,7 @@ Click Network
 
 ![alt text][pre08-Network]
 
-Now we need to configure your second Adapter by clicking Adapter and use the following settings:
+Change the network settings of the First Adapter with the following settings:
 
 |Field|Value|
 |---|---|
@@ -75,7 +75,16 @@ Now we need to configure your second Adapter by clicking Adapter and use the fol
 |Attached to:|Host-only Adapter|
 |Name:|VirtualBox Host-Only Ethernet adapter|
 
-![alt text][pre09-Adapter2]
+![alt text][pre09-Adapter1]
+
+Now we need to configure your second Adapter by clicking Adapter and use the following settings:
+
+|Field|Value|
+|---|---|
+|Enable Network Adapter| Checked |
+|Attached to:|NAT|
+
+![alt text][pre10-Adapter2]
 
 Then Click OK
 
@@ -99,4 +108,6 @@ You have finally set-up your VM now we will install your server,Click [here](htt
 
 [pre08-Network]: https://github.com/ajohnsc/L101/blob/master/pictures/pre08-Network.PNG
 
-[pre09-Adapter2]: https://github.com/ajohnsc/L101/blob/master/pictures/pre09-Adapter2.PNG
+[pre09-Adapter1]: https://github.com/ajohnsc/L101/blob/master/pictures/pre09-Adapter1.PNG
+
+[pre10-Adapter2]: https://github.com/ajohnsc/L101/blob/master/pictures/pre10-Adapter2.PNG
