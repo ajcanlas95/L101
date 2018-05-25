@@ -1,6 +1,7 @@
 # Linux 101
 
 This is a training prepared to understand Linux and how to administer it.
+
 In this training you only need the following:
 - VirtualBox
 - Centos ISO
