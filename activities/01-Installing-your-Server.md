@@ -46,8 +46,8 @@ Username: `student` Password: `linux101`
 
 [pre13-QuickUP]: https://github.com/ajohnsc/L101/blob/master/pictures/pre13-QuickUP.PNG
 
-[pre14-Kickstart]: https://github.com/ajohnsc/L101/blob/master/pictures/pre14-Kickstart.pressing
+[pre14-Kickstart]: https://github.com/ajohnsc/L101/blob/master/pictures/pre14-Kickstart.PNG
 
-[pre15-Installing]: https://github.com/ajohnsc/L101/blob/master/pictures/pre15-Installing.pressing
+[pre15-Installing]: https://github.com/ajohnsc/L101/blob/master/pictures/pre15-Installing.PNG
 
 [pre16-Reboot]: https://github.com/ajohnsc/L101/blob/master/pictures/pre16-Reboot.PNG
