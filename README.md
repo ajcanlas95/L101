@@ -24,4 +24,4 @@ Open VirtualBox
 
 ![alt text][pre01-VirtualBox]
 
-[pre01-VirtualBox]: https://github.com/ajohnsc/L101/blob/master/pictures/pre01-VirtualBox.png "Sample Opened VirtualBox"
+[pre01-VirtualBox]: https://github.com/ajohnsc/L101/blob/master/pictures/pre01-VirtualBox.PNG "Sample Opened VirtualBox"
