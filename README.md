@@ -6,7 +6,7 @@ In this training you only need the following:
 - VirtualBox
 - Centos ISO
 
-## Pre Activity : Installing the OS and required packages
+## Pre Activity : Setting up your VM
 
 1.) Download and install VirtualBox
 
