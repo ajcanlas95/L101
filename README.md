@@ -15,6 +15,13 @@ You can download VirtualBox by clicking [here](https://www.virtualbox.org/wiki/D
 2.) Download CentOS ISO
 
 You can download your Latest Centos ISO [here](https://www.centos.org/download/)
-Then click in minimal ISO
+
+Then click Minimal ISO to dowload the appropirate image
 
 3.) Install CentOS in your VirtualBox
+
+Open VirtualBox
+
+![alt text][pre01-VirtualBox]
+
+[pre01-VirtualBox]: https://github.com/ajohnsc/L101/blob/master/pictures/pre01-VirtualBox.png "Sample Opened VirtualBox"
