@@ -96,7 +96,6 @@ You have finally set-up your VM now we will install your server,Click [here](htt
 
 [pre03-ExpertMode]: https://github.com/ajohnsc/L101/blob/master/pictures/pre03-ExpertMode.PNG
 
-
 [pre05-Storage]: https://github.com/ajohnsc/L101/blob/master/pictures/pre05-Storage.PNG
 
 [pre06-VMSample]: https://github.com/ajohnsc/L101/blob/master/pictures/pre06-VMSample.PNG
