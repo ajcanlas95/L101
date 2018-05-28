@@ -78,7 +78,7 @@ Now we need to configure your second Adapter by clicking Adapter and use the fol
 
 Then Click OK
 
-You have finally set-up your VM now we will install your server,Click [here](https://github.com/ajohnsc/L101/blob/master/activities/README.md)
+You have finally set-up your VM now we will install your server,Click [here](https://github.com/ajohnsc/L101/blob/master/activities/0b-Installing-your-Server.md)
 
 
 [pre01-VirtualBox]: https://github.com/ajohnsc/L101/blob/master/pictures/pre01-VirtualBox.PNG "Sample Opened VirtualBox"
