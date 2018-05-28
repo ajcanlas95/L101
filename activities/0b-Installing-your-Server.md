@@ -40,6 +40,8 @@ If you successfully followed all the steps you can Login with this credentials:
 
 Username: `student` Password: `linux101`
 
+To start your Linux journey click [here](https://github.com/ajohnsc/L101/blob/master/activities/01-Common-commands.md)
+
 [pre11-StartingVM]: https://github.com/ajohnsc/L101/blob/master/pictures/pre11-StartingVM.PNG
 
 [pre12-Choose]: https://github.com/ajohnsc/L101/blob/master/pictures/pre12-Choose.PNG
