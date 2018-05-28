@@ -1,7 +1,9 @@
 # 01 Common commands
 
 In this page you will now the basic navigation,creating/deleting of files and directories,redirecting/making output in Linux CLI.
----
+-
+--
+
 ### Topography
 
 In this portion we will need to understand how we will execute any commands; if the command precede with a `$` it means you need to execute the command with the `student` user, if you the command precede with a `#` it means you need to execute the command with `root` user example:
@@ -9,7 +11,9 @@ In this portion we will need to understand how we will execute any commands; if 
 `$ echo "I am a student"` this is executed via `student` user
 
 `# echo "I am root"` this i s executed via `root` user
+
 ---
+
 ### Basic Inspection
 
 As a sysadmin you need to know how to know basic inspection
@@ -17,7 +21,9 @@ As a sysadmin you need to know how to know basic inspection
 To look inside of a file you can use `cat <filename>`:
 
 `$ cat /etc/resolv.conf`
+
 ---
+
 To look inside of a directory you can use `ls`:
 
 To view the contents of your current directory
@@ -27,7 +33,9 @@ To view the contents of your current directory
 To view the contents of another directory use `ls <directory name>`
 
 `$ ls /etc`
+
 ---
+
 To inspect what is your current directory you can use `pwd` command
 
 `$ pwd`
@@ -43,6 +51,7 @@ or
 
 
 ---
+
 ### Creating and Deleting Files and Directory
 
 In this portion you will understand how to create and delete a file and directory.
