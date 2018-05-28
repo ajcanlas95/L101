@@ -22,8 +22,6 @@ To look inside of a file you can use `cat <filename>`:
 
 `$ cat /etc/resolv.conf`
 
----
-
 To look inside of a directory you can use `ls`:
 
 To view the contents of your current directory
@@ -33,8 +31,6 @@ To view the contents of your current directory
 To view the contents of another directory use `ls <directory name>`
 
 `$ ls /etc`
-
----
 
 To inspect what is your current directory you can use `pwd` command
 
@@ -48,13 +44,29 @@ or
 
 `$ ls --help`
 
+To view who are logged in the server `who` or simply `w` will work
 
+`$ w`
+
+To view what user you're using, execute `whoami`
+
+`$ whoami`
+
+To create an output use `echo <input>` command remember single quotes `""` will echo whatever variable and symbol shortcut you will input in echo command otherwise use `''`
+
+`$ echo "my home is $HOME"`
+
+and
+
+`$ echo 'my home is $HOME'`
+
+we will work more on this in other chapters
 
 ---
 
-### Creating and Deleting Files and Directory
+### Work with Files and/or Directory
 
-In this portion you will understand how to create and delete a file and directory.
+In this portion you will understand how to work with a file and/or directory.
 
 To create a file you need to execute `touch` command,example to create a file named "my1stFile":
 
