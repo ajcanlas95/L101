@@ -1,8 +1,8 @@
 # 01 Common commands
 
 In this page you will now the basic navigation,creating/deleting of files and directories,redirecting/making output in Linux CLI.
--
---
+
+---
 
 ### Topography
 
