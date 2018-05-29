@@ -72,14 +72,30 @@ To create a file you need to execute `touch` command,example to create a file na
 
 `$ touch my1stFile`
 
+If you want to create multiple files in one execution, you can execute `touch` command with multiple sub-parameters, for example i want to create files named "File1","File2",and "File3".  
+
+`$ touch File1 File2 File3`
+
 To delete a file you need to execute `rm` command,example to delete a file named "my1stFile".
 
 `$ rm my1stFile`
+
+Also the multiple sub-parameters in `touch` in creating also applies to `rm`, example if i want to remove files named "File1","File2",and "File3".
+
+`$ rm File1 File2 File3`
 
 To create a directory you need the `mkdir` command, for example if you will create a directory named "my1stDirectory":
 
 `$ mkdir my1stDirectory`
 
+If you want to create multiple directories in one execution, you can execute `mkdir` command with multiple sub-parameters, for example i want to create directories named "Dir1","Dir2",and "Dir3".  
+
+`$ mkdir Dir1 Dir2 Dir3`
+
 To remove a directory you need the `rmdir` command, for example if you will remove a directory named "my1stDirectory":
 
 `$ rmdir my1stDirectory`
+
+Also the multiple sub-parameters in `mkdir` in creating also applies to `rmdir`, example if i want to remove files named "Dir1","Dir2",and "Dir3".
+
+`$ rmdir Dir1 Dir2 Dir3`
