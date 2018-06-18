@@ -27,7 +27,8 @@ In this exercise you will perform the following:
 ### Procedure
 
 1. First start the activity with the workshop
-```$ workshop basic launch
+```
+$ workshop basic launch
 Creating example files.........Success
 Creating example directories...Success
 ```

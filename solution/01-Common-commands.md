@@ -9,7 +9,8 @@ If you need to review please click [here](https://github.com/ajohnsc/L101/blob/m
 ### Soluton
 
 1. First start the activity with the workshop
-```$ workshop basic launch
+```
+$ workshop basic launch
 Creating example files.........Success
 Creating example directories...Success
 ```
