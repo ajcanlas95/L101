@@ -14,7 +14,7 @@ SAP=0
 
 # Help argument output
 help_workshop(){
-  printf "Usage: $0 [lesson] [action]\nexample:\n\tworkshop basic launch\n\twokshop process clean\n\t"
+  printf "Usage: $0 [lesson] [action]\nexample:\n\tworkshop basic launch\n\twokshop process clean\n"
 }
 
 # Checking viable first argument
