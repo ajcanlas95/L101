@@ -1,0 +1,100 @@
+#!/bin/bash
+#
+# Created by AJ Canlas
+# June 17,2018
+
+# Wokshopfolder location
+WSDIR="/etc/workshopfolder"
+
+# First Agument Passer Variable set to 0
+FAP=0
+
+# Second Agument Passer Variable set to 0
+SAP=0
+
+# Help argument output
+help_workshop(){
+  printf "Usage: $0 [lesson] [action]\nexample:\n\tworkshop basic launch\n\twokshop process clean\n\t"
+}
+
+# Checking viable first argument
+check_first_argument(){
+  # Checking if first argument is available
+  if [ -z "$1" ]
+  then
+	# Alerts user and prints help
+	echo "No lesson supplied!"
+	help_workshop
+
+  # Checking if first argument is help
+  elif [ "$1" = "help" ]
+  then
+	# Print help
+	help_workshop
+  else
+	# Check from workshopfolder if lesson is available
+	for i in `ls $WSDIR`
+	do
+		if [ "$i" = "$1" ]
+		then
+			# If checked that lesson is available pass it to second
+			# function
+			check_second_argument $1 $2
+			FAP=1
+			break
+		fi
+	done
+
+	# Check if First argument passer is changed
+	if [ $FAP -eq 0 ]
+	then
+		printf "$1 lesson is not availble\n"
+		help_workshop
+	fi
+  fi
+}
+
+# Checking viable second argument
+check_second_argument(){
+  # Checking if second argument is available
+  if [ -z "$2" ]
+  then
+	# Alerts user and prints help
+	echo "No action supplied!"
+	help_workshop
+  elif [ "$2" = "help" ]
+  then
+	# Print help
+	help_workshop
+  else
+	# Check from workshopfolder if action is available
+	for i in `$WSDIR/$1 action`
+        do
+                if [ "$i" = "$2" ]
+                then
+                        # If checked that action is available and pass it to
+                        # lesson argument
+                        $WSDIR/$1 $2
+                        SAP=1
+                        break
+                fi
+        done
+
+        # Check if Second argument passer is changed
+        if [ $SAP -eq 0 ]
+        then
+                printf "$2 action is not available\n"
+                help_workshop
+        fi
+  fi
+
+}
+
+
+# Main function
+main(){
+	check_first_argument $1 $2
+}
+
+# workshop execution
+main $1 $2

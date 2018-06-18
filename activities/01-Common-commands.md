@@ -62,6 +62,10 @@ and
 
 we will work more on this in other chapters
 
+To change the directory use `cd` or change directory command
+
+`$ cd /etc`
+
 ---
 
 ### Work with Files and/or Directory
@@ -99,3 +103,46 @@ To remove a directory you need the `rmdir` command, for example if you will remo
 Also the multiple sub-parameters in `mkdir` in creating also applies to `rmdir`, example if i want to remove files named "Dir1","Dir2",and "Dir3".
 
 `$ rmdir Dir1 Dir2 Dir3`
+
+---
+
+### Redirecting results
+
+In this portion you will understand how redirection in Linux workshop,
+in Linux there are 2 types of output:
+
+- `stdout`
+- `stderr`
+
+`stdout` is the output if the command is successful or/and simply normal output
+
+`stderr` is the output if the command encountered errors or/and simply an alert output
+
+Redirecting outputs is useful such as logging and referencing etc.
+For you to redirect the output from a command to a file you need to use `>` in between the command and file.
+
+Example:
+
+`$ echo "Linux is great" > file` this would remove all the contents of the file and replace it its content with the output.
+
+For you to redirect output and append it you need to use `>>` in between the command and filename.
+
+Example:
+
+`$ echo "Linux is awesome" >> file`
+
+by default you will redirect `stdout` for you to specify it you need to use `1>`, if you want the `sterr` just use `2>`, but if you want to capture both just use `&>`.
+
+Example:
+
+`$ cat /etc/resolv.conf 1> outfile` redirecting `stdout`
+
+`$ mkdir -pv /root/awesome 2> errorfile` redirecting `stderr`
+
+`$ mkdir -pv awsome /root/awesome &> file` redirecting both `stdout` and `stderr`
+
+---
+
+### Test your knowledge
+
+As you have learn the Common commands in Linux we need to gauge if you're ready for the next part click [here](https://github.com/ajohnsc/L101/blob/master/exercise/01-Common-commands.md) for your first exercise
