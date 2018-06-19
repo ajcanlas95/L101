@@ -12,6 +12,9 @@ get_action(){
 	echo "rate"
 }
 
+# Score Variable
+SCORE=1
+
 # Print Success
 success_output(){
 	printf "\033[1;32mSuccess\033[0m\n"
@@ -30,6 +33,7 @@ pass_output(){
 # Print Failed
 failed_output(){
   printf "\033[1;31mFailed\033[0m\n"
+  SCORE=`expr $SCORE - 1`
 }
 
 # This function should prepare the environment for the task
@@ -44,6 +48,13 @@ clean_script(){
 
 # This function should rate the work of the student
 rate_script(){
+	printf "\nOVERALL............................."
+	if [ $SCORE -eq 1 ]
+	then
+		pass_output
+	else
+		failed_output
+	fi
   return 0
 }
 
